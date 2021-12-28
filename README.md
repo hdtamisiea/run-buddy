@@ -12,3 +12,5 @@ https://lernantino.github.io/run-buddy/
 
 ## Contribution
 Make with ❤️ by Heather Tamisiea
+
+### &copy;2019 Run Buddy, Inc
