@@ -156,6 +156,11 @@ section {
     background: #fce138;
 }
 
+.step-img {
+    flex: 1 12%;
+    margin-right: 20px;
+}
+
 .section-title {
     font-size: 55px;
     color: #024e76;
@@ -182,6 +187,9 @@ section {
 
 .step-info {
     flex: 2 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .step-text p {
@@ -193,6 +201,15 @@ section {
     font-size: 26px;
     line-height: 1.5;
     color: #024e76;
+}
+
+.step-text {
+    flex: 12;
+}
+
+/* Limit width to container size for Edge issues */
+.step-img img {
+    max-width: 100%;
 }
 
 .step {
